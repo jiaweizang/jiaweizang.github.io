@@ -90,7 +90,7 @@
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     {% endif %}
     {% if entry.html %}
-      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Link</a>
     {% endif %}
     {% if entry.image %}
       <img class="img-fluid z-depth-1 rounded" src="{{ entry.image | prepend: '/assets/img/' | relative_url }}">

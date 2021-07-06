@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: jz3122@columbia.edu
+description:  
 
 profile:
   align: right
